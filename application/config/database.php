@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'mysql3.000webhost.com';
-$db['default']['username'] = 'a2000901_tienda';
-$db['default']['password'] = '33frankop695';
-$db['default']['database'] = 'a2000901_tienda';
+$db['default']['hostname'] = '';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = 'tienda';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
