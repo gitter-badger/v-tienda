@@ -1,0 +1,1233 @@
+#formulario_registro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    padding: 20px;
+}
+
+.campos_formularios{
+    margin-bottom: 20px;
+}
+#email{
+    width: 170px;
+}
+
+#formulario_login{
+    margin-top: 20px;
+   
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.campos_login{
+    margin-bottom: 20px;
+}
+
+.campos_dashboard{
+    margin-bottom: 30px;
+}
+
+#dashboard{
+    margin-top: 30px;
+    border: 1px  #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#cabecera {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: -webkit-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -moz-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -ms-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -o-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-repeat: no-repeat;
+    font-size: 11px;
+    padding: 25px 40px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+#cabecera a {
+    color: #f71570;
+    text-shadow: none;
+}
+
+#bienvenida{
+    float: right;
+    font-size : 12px;
+    background-color: gainsboro;
+    
+}
+
+#menu_dashboard{
+margin-top: 40px;
+background-color: gainsboro;    
+    
+}
+
+#producto{
+ background-color: gainsboro;   
+   
+}
+
+#venta{
+ background-color: gainsboro;    
+     
+}
+#clientes{
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+#salida{
+    margin-top: 20px;
+    font-size : 12px;
+    float:right;
+    background-color: gainsboro;
+}
+
+/* ============================================================================= */
+/* ============================================================================= */
+/*
+ * Jayj HTML5, a free HTML5 And CSS3 Theme
+ * Version 2.1
+ * By Jesper J, http://jayj.dk
+ * Download for free at http://jayj.dk/a-free-html5-and-css3-theme/
+
+        Released under New BSD License
+        http://www.opensource.org/licenses/bsd-license.php
+
+        Copyright (c) 2009-2012, Jayj.dk
+        All rights reserved.
+*/
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.well {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #eee;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+audio:not([controls]) {
+    display: none;
+}
+[hidden] {
+    display: none;
+}
+/* =============================================================================
+   Base
+   ========================================================================== */
+/* Apply a natural box layout model to all elements - http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    color: #222222;
+}
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    /* Page width */
+
+    width: 100%;
+    max-width: 1140px;
+    min-width: 755px;
+    margin: 0 auto;
+    /* Background image and color */
+
+    background-color: #ededed;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /* Fallback background image */
+
+}
+/**
+ * The selection color
+ * These selection declarations have to be separate
+ */
+::-moz-selection {
+    background: #bada55;
+    color: #000000;
+    text-shadow: none;
+}
+::selection {
+    background: #bada55;
+    color: #000000;
+    text-shadow: none;
+}
+/* =============================================================================
+   Links
+   ========================================================================== */
+a {
+    color: #f71570;
+    text-decoration: none;
+}
+a:hover {
+    color: #aa0648;
+    text-decoration: none;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    /* Improve readability when focused and hovered in all browsers */
+
+    outline: 0;
+}
+/* =============================================================================
+   Headings
+   ========================================================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Merriweather", Georgia, serif;
+    text-rendering: optimizelegibility;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    font-weight: normal;
+    color: #999999;
+    padding-left: 10px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 900;
+}
+h1 small {
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+h2 {
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+h4 {
+    border-bottom: 1px solid #ededed;
+    color: #f71570;
+    font: bold 16px "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 8px;
+}
+h6 {
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+}
+/* Entry title */
+.entry-title {
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+.entry-title a:hover {
+    text-decoration: none;
+    -webkit-transition: color 300ms ease-in-out;
+    -moz-transition: color 300ms ease-in-out;
+    -ms-transition: color 300ms ease-in-out;
+    -o-transition: color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+}
+/* Section title */
+section h1,
+.page-header h1,
+h1.page-header {
+    border-bottom: 4px double #ededed;
+    padding-bottom: 8px;
+}
+/* =============================================================================
+   HTML elements
+   ========================================================================== */
+abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted;
+}
+b,
+strong {
+    font-weight: bold;
+}
+dfn {
+    font-style: italic;
+}
+hr {
+	background-color:black;
+	border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+ins {
+    background: #ffff99;
+    color: #000000;
+    text-decoration: none;
+}
+mark {
+    background: #ffff00;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+small {
+    font-size: 85%;
+}
+/**
+ * Position subscript and superscript content without affecting line-height: h5bp.com/k
+ */
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+
+/* =============================================================================
+   Quotes
+   ========================================================================== */
+blockquote {
+    border-left: 5px solid #049cdb;
+    margin: 40px 0;
+    padding: 5px 0 5px 20px;
+    position: relative;
+    /* Right-aligned blockquote */
+
+}
+blockquote p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+}
+blockquote small {
+    display: block;
+    color: #999999;
+}
+blockquote small:before {
+    content: '\2014 \00A0';
+}
+blockquote.alignright {
+    border-right: 5px solid #049cdb;
+    border-left: 0;
+    float: right;
+    padding-right: 20px;
+    padding-left: 0;
+}
+blockquote.alignright p,
+blockquote.alignright small {
+    text-align: right;
+}
+q {
+    quotes: none;
+}
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
+ */
+img {
+    border: 0;
+    vertical-align: middle;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    -ms-interpolation-mode: bicubic;
+}
+a:hover img {
+    box-shadow: 0 0 8px #f71570;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+img,
+embed,
+object,
+video,
+iframe {
+    max-width: 100%;
+}
+/* Seamless iframes */
+iframe[seamless] {
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}
+/* Correct overflow not hidden in IE9 */
+svg:not(:root) {
+    overflow: hidden;
+}
+/**
+ * Figures
+ */
+figure {
+    background: #333333;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    margin: 25px 0;
+    text-align: center;
+}
+figure figcaption {
+    font: 14px "Merriweather", Georgia, serif;
+    margin: 21px 0 3px;
+}
+figure img {
+    border-radius: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: none;
+}
+/* =============================================================================
+   Tables
+   ========================================================================== */
+table {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-collapse: separate;
+    *border-collapse: collapsed;
+    border-radius: 4px;
+    border-spacing: 0;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+}
+table th,
+table td {
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    padding: 8px;
+    line-height: 18px;
+    text-align: left;
+    vertical-align: top;
+}
+table th {
+    font-weight: bold;
+}
+table thead th {
+    vertical-align: bottom;
+}
+table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+    border-top: 0;
+}
+table tr th:first-child,
+table tr td:first-child {
+    border-left: 0;
+}
+table tbody + tbody {
+    border-top: 2px solid #dddddd;
+}
+table tfoot td {
+    background: #f5f5f5;
+    color: #666666;
+    font-size: 11px;
+    text-transform: uppercase;
+    box-shadow: inset 0 1px 1px 0 #eee;
+}
+table caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* =============================================================================
+   Forms
+   ========================================================================== */
+form {
+    margin: 0;
+}
+fieldset {
+    border: 4px double #ededed;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0;
+}
+legend {
+    background-color: #ffeef7;
+    border: solid #ffffff;
+    border-width: 0 2px;
+    border-radius: 5px;
+    color: #a12a7c;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 6px 8px;
+    white-space: normal;
+    text-transform: uppercase;
+    *margin-left: -7px;
+    /* Correct alignment displayed oddly in IE6/7 */
+
+}
+/* Labels */
+label {
+    color: #555555;
+    cursor: pointer;
+    /* Indicate that 'label' will shift focus to the associated form element */
+
+    display: block;
+    font: 900 12px "Merriweather", Georgia, serif;
+    margin-bottom: 7px;
+}
+label .required {
+    color: #777;
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 2px;
+}
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+/*
+ * Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ */
+button,
+input {
+    line-height: normal;
+}
+/*
+ * Consistent box sizing and appearance
+ */
+input[type="checkbox"],
+input[type="radio"] {
+    padding: 0;
+    *width: 13px;
+    *height: 13px;
+}
+input[type="color"] {
+    padding: 3px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button {
+    -webkit-appearance: none;
+}
+/*
+ * Remove inner padding and border in FF3/4: h5bp.com/l
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+/*
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
+ * 2. Allow only vertical resizing
+ */
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+/**
+ * Input styling
+ */
+input,
+select,
+textarea {
+    color: #555555;
+    font-size: 13px;
+    margin-bottom: 9px;
+    padding: 6px;
+}
+input,
+textarea {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border, box-shadow linear 200ms;
+    -moz-transition: border, box-shadow linear 200ms;
+    -ms-transition: border, box-shadow linear 200ms;
+    -o-transition: border, box-shadow linear 200ms;
+    transition: border, box-shadow linear 200ms;
+    /* :focus styling */
+
+    /* Invalid inputs, change focus to red */
+
+}
+input:focus,
+textarea:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.4);
+}
+input:invalid:focus,
+textarea:invalid:focus {
+    border-color: #e9322d;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+/* Input sizes */
+.input-mini {
+    width: 60px;
+}
+.input-small {
+    width: 90px;
+}
+.input-medium {
+    width: 150px;
+}
+.input-large {
+    width: 210px;
+}
+.input-xlarge {
+    width: 270px;
+}
+.input-xxlarge {
+    width: 100%;
+}
+/**
+ * Buttons
+ */
+.btn,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6 100%);
+    background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6 100%);
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6 100%);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6 100%);
+    background-image: linear-gradient(top, #ffffff, #e6e6e6 100%);
+    background-repeat: repeat-x;
+    border: 1px solid;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    color: #333333;
+    border-radius: 4px;
+    font-size: 14px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 9px 14px;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    /* Display hand cursor for clickable form elements */
+
+    *overflow: visible;
+    /* Correct inner spacing displayed oddly in IE7 (doesn't effect IE6) */
+
+    /* Pink, primary button */
+
+}
+.btn:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #e6e6e6;
+    background-position: 0 -10px;
+    color: #333333;
+    -webkit-transition: background-position 100ms linear;
+    -moz-transition: background-position 100ms linear;
+    -ms-transition: background-position 100ms linear;
+    -o-transition: background-position 100ms linear;
+    transition: background-position 100ms linear;
+}
+.btn:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    outline: thin dotted #333333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn:active,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    background-color: #e6e6e6;
+    background-image: none;
+    outline: 0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.btn.primary,
+button.primary,
+input[type="button"].primary,
+input[type="reset"].primary,
+input[type="submit"].primary {
+    background-color: #f71570;
+    background-image: -moz-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: -ms-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: -webkit-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: -o-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: linear-gradient(top, #f950ab, #f71570 100%);
+    background-repeat: repeat-x;
+    border: 1px solid;
+    border-color: #f71570 #f71570 #b9064e;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn.primary:hover,
+button.primary:hover,
+input[type="button"].primary:hover,
+input[type="reset"].primary:hover,
+input[type="submit"].primary:hover {
+    background-color: #f71570;
+    background-position: 0 -10px;
+    color: #ffffff;
+    -webkit-transition: background-position 100ms linear;
+    -moz-transition: background-position 100ms linear;
+    -ms-transition: background-position 100ms linear;
+    -o-transition: background-position 100ms linear;
+    transition: background-position 100ms linear;
+}
+.btn.primary:focus,
+button.primary:focus,
+input[type="button"].primary:focus,
+input[type="reset"].primary:focus,
+input[type="submit"].primary:focus {
+    outline: thin dotted #ffffff;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn.primary:active,
+button.primary:active,
+input[type="button"].primary:active,
+input[type="reset"].primary:active,
+input[type="submit"].primary:active {
+    background-color: #f71570;
+    background-image: none;
+    outline: 0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+/*
+ * Disabled elements
+ */
+.btn[disabled],
+button[disabled],
+input[disabled] {
+    cursor: not-allowed;
+    background-color: #ededed;
+    background-image: none !important;
+    color: #333333;
+    text-shadow: none;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+/**
+ * Search inputs
+  */
+input[type="search"] {
+    background: #ffffff url(images/search.png) no-repeat 8px center;
+    padding-left: 22px;
+}
+.searchform {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #eee;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    *zoom: 1;
+    margin-bottom: 25px;
+}
+.searchform:before,
+.searchform:after {
+    display: table;
+    content: "";
+}
+.searchform:after {
+    clear: both;
+}
+.searchform input[type="search"] {
+    float: left;
+    width: 68%;
+    margin-bottom: 0;
+}
+.searchform input[type="submit"] {
+    width: 28%;
+    padding: 6px 6px;
+    float: right;
+}
+/* =============================================================================
+   Content
+   ========================================================================== */
+#main {
+    background-color: none;
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), #ffffff 190px);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25), #ffffff 190px);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), #ffffff 190px);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.25), #ffffff 190px);
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0.25), #ffffff 190px);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 3px 0 rgba(204, 204, 204, 0.8);
+}
+.no-cssgradients #main {
+    background-color: #ffffff;
+}
+#content {
+    margin-left: 0;
+}
+#sidebar {
+    float: right;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+#master-header {
+    padding: 40px;
+    position: relative;
+    z-index: 2;
+}
+#site-title {
+    float: left;
+}
+#site-title a {
+    color: #f71570;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-shadow: 0 1px 0 #ffffff;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+#site-title a:hover {
+    text-decoration: none;
+    /* Scale the site title on hover */
+
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+}
+#site-title img {
+    box-shadow: none;
+}
+#site-description {
+    font-size: 19px;
+    float: right;
+    padding-top: 24px;
+}
+/* =============================================================================
+   Navigation
+   ========================================================================== */
+.main-navigation {
+    margin: 0 0 25px;
+    *z-index: 10;
+}
+.main-navigation li {
+    float: left;
+    margin: 0 15px 0 0;
+    position: relative;
+    *z-index: 5;
+}
+.main-navigation a {
+    background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: -ms-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: -webkit-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: -o-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    border: 1px solid;
+    border-color: #ffffff #c9c9c9 #c9c9c9 #ffffff;
+    border-radius: 5px;
+    display: block;
+    font: normal 16px "Merriweather", Georgia, serif;
+    margin-bottom: 5px;
+    padding: 14px 21px;
+    text-shadow: 0 1px 0 #ffffff;
+    -webkit-transition: all 150ms ease;
+    -moz-transition: all 150ms ease;
+    -ms-transition: all 150ms ease;
+    -o-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+.main-navigation a:hover {
+    background-color: #e0e0e0;
+    background-image: -moz-linear-gradient(top, #f2f2f2, #e3e3e3 100%);
+    background-image: -ms-linear-gradient(top, #f2f2f2, #e3e3e3 100%);
+    background-image: -webkit-linear-gradient(top, #f2f2f2, #e3e3e3 100%);
+    background-image: -o-linear-gradient(top, #f2f2f2, #e3e3e3 100%);
+    background-image: linear-gradient(top, #f2f2f2, #e3e3e3 100%);
+    border-radius: 10px 0 10px 0;
+    text-decoration: none;
+}
+.main-navigation a:active,
+.main-navigation a:focus {
+    box-shadow: inset 1px 1px 6px #999999;
+}
+.main-navigation .current > a {
+    background-color: #f71570;
+    background-image: -moz-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: -ms-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: -webkit-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: -o-linear-gradient(top, #f950ab, #f71570 100%);
+    background-image: linear-gradient(top, #f950ab, #f71570 100%);
+    border-color: transparent;
+    border-radius: 10px 0 10px 0;
+    color: #ffffff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.main-navigation .current > a:hover {
+    border-radius: 0 10px 0 10px;
+}
+.main-navigation .sub-menu {
+    display: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.22);
+    min-width: 200px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+.main-navigation .sub-menu li {
+    float: none;
+    margin: 0;
+}
+.main-navigation .sub-menu a {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.main-navigation .sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+.main-navigation li:hover > .sub-menu {
+    display: block;
+}
+/* =============================================================================
+   Entries
+   ========================================================================== */
+.hentry {
+    border-bottom: 4px double #ededed;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.hentry:last-of-type {
+    border-bottom: none;
+}
+/* Entry meta */
+.entry-meta {
+    background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: -ms-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: -webkit-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: -o-linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    background-image: linear-gradient(top, #f2f2f2, #e6e6e6 100%);
+    border: 1px solid;
+    border-color: #ffffff #c9c9c9 #c9c9c9 #ffffff;
+    border-radius: 5px;
+    box-shadow: -1px 0 4px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    clear: both;
+    font-size: 13px;
+    line-height: 1.8;
+    margin: 40px 0 0 -80px;
+    padding: 14px 15px;
+    text-shadow: 0 1px 0 #ffffff;
+}
+.ie7 .entry-meta {
+    margin-left: 0;
+}
+/* Edit link */
+.edit-link {
+    float: right;
+}
+.edit-link a {
+    color: #555555;
+}
+.edit-link a:hover {
+    color: #f71570;
+    text-decoration: none;
+}
+/* More link */
+.more-link {
+    font: 700 15px "Merriweather", Georgia, serif;
+}
+.more-link:hover {
+    text-decoration: none;
+}
+.more-link:hover .meta-nav {
+    margin-left: 5px;
+    -webkit-transition: margin-left 200ms ease-in-out;
+    -moz-transition: margin-left 200ms ease-in-out;
+    -ms-transition: margin-left 200ms ease-in-out;
+    -o-transition: margin-left 200ms ease-in-out;
+    transition: margin-left 200ms ease-in-out;
+}
+/* Entry thumbnails */
+.thumbnail {
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 4px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+    float: left;
+    margin: 0 25px 10px -80px;
+    /* Thumbnail rotation */
+
+}
+.hentry .thumbnail:hover {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+.hentry:nth-of-type(even) .thumbnail:hover {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+.ie7 .thumbnail {
+    margin-left: 0;
+}
+/* =============================================================================
+   Widgets
+   ========================================================================== */
+.widget {
+    border-bottom: 4px double #ededed;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+.widget:last-child {
+    border-bottom: none;
+}
+.widget li a:hover {
+    margin-left: 5px;
+    -webkit-transition: margin-left 300ms linear;
+    -moz-transition: margin-left 300ms linear;
+    -ms-transition: margin-left 300ms linear;
+    -o-transition: margin-left 300ms linear;
+    transition: margin-left 300ms linear;
+}
+.well .widget-title {
+    margin-top: 5px;
+}
+/* =============================================================================
+   Footer
+   ========================================================================== */
+#footer {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: -webkit-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -moz-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -ms-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -o-radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-repeat: no-repeat;
+    font-size: 11px;
+    padding: 25px 40px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    text-align: right;
+}
+#footer a {
+    color: #f71570;
+    text-shadow: none;
+}
+/* =============================================================================
+   Alert messages
+   ========================================================================== */
+.alert {
+    background-color: #ededed;
+    border-left: 5px solid #d9d9d9;
+    border-radius: 0 5px 5px 0;
+    color: #222222;
+    padding: 10px 14px;
+    margin-bottom: 25px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alert h4 {
+    border-bottom: 0;
+    color: inherit;
+    padding-bottom: 0;
+    margin: 10px 0;
+}
+.alert p + p {
+    margin-bottom: 5px;
+}
+.alert-warning {
+    background-color: #fef9c7;
+    border-color: #fcdd4a;
+    color: #3b3601;
+}
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #54b646;
+    color: #0d370d;
+}
+.alert-danger,
+.alert-error {
+    background-color: #f2dede;
+    border-color: #ce838f;
+    color: #7a0b0a;
+}
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #049cdb;
+    color: #0c3346;
+}
+/* =============================================================================
+   Non-semantic helper classes
+   ========================================================================== */
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear {
+    clear: both;
+}
+.last {
+    margin-right: 0px;
+}
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.assistive-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+    visibility: hidden;
+}
+/* =============================================================================
+   Media queries
+   ========================================================================== */
+@media only screen and (max-width: 1260px) {
+    /* Remove negative margins on post thumbnails and meta */
+    .entry-meta,
+    .thumbnail {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #main {
+        border-radius: 0;
+        padding: 25px;
+        box-shadow: none;
+    }
+    #footer {
+        box-shadow: inset 0 2px 3px rgba(204, 204, 204, 0.6);
+    }
+    #cabecera {
+        box-shadow: inset 0 2px 3px rgba(204, 204, 204, 0.6);
+    }
+}

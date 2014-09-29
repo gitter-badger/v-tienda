@@ -1,0 +1,22 @@
+#btnNuevoCliente{
+    float:right;
+
+}
+#Descripcion{
+    font-size: 10px;
+    
+}
+#tienda {
+    text-align: center;
+    border-bottom: white thick   solid ;
+    border-top:  white thick   solid ;
+}
+#nombreTienda{
+
+
+
+}
+.btnModulo{
+    color: limegreen;
+}
+

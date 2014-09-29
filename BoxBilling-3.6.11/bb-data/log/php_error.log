@@ -1,0 +1,28 @@
+[15-Sep-2014 06:17:39] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:17:40] 8 Array to string conversion /home/a2000901/public_html/BoxBilling-3.6.11/bb-library/rb.php 650
+[15-Sep-2014 06:17:40] PHP Notice:  Array to string conversion in /home/a2000901/public_html/BoxBilling-3.6.11/bb-library/rb.php on line 650
+[15-Sep-2014 06:17:40] 8 Array to string conversion /home/a2000901/public_html/BoxBilling-3.6.11/bb-library/rb.php 650
+[15-Sep-2014 06:17:40] 8 Array to string conversion /home/a2000901/public_html/BoxBilling-3.6.11/bb-library/rb.php 650
+[15-Sep-2014 06:17:40] 2 Illegal offset type in isset or empty /home/a2000901/public_html/BoxBilling-3.6.11/bb-modules/mod_theme/Model_Theme.php 127
+[15-Sep-2014 06:17:40] PHP Warning:  Illegal offset type in isset or empty in /home/a2000901/public_html/BoxBilling-3.6.11/bb-modules/mod_theme/Model_Theme.php on line 127
+[15-Sep-2014 06:18:15] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:18:18] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:18:32] Please check your login details 403
+[15-Sep-2014 06:18:32] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:19:45] Page admin not found
+[15-Sep-2014 06:20:00] Deprecated use of mod_client_login template. Rename mod_client_login.phtml to mod_page_login.phtml
+[15-Sep-2014 06:23:05] You need to login in order to this  page
+[15-Sep-2014 06:23:08] You need to login in order to this  page
+[15-Sep-2014 06:24:10] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:24:11] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:24:11] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:25:04] Page http://v-tienda.com.ar/BoxBilling-3.6.11/BoxBilling-3.6.11/index.php/api not found
+[15-Sep-2014 06:25:12] Page http://v-tienda.com.ar/BoxBilling-3.6.11/BoxBilling-3.6.11/index.php/api not found
+[15-Sep-2014 06:25:25] Unknown API call  879
+[15-Sep-2014 06:25:25] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:25:34] Unknown API call  879
+[15-Sep-2014 06:25:34] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:29:24] Unknown API call  879
+[15-Sep-2014 06:29:24] Use of undefined constant code - assumed 'code'
+[15-Sep-2014 06:29:27] Unknown API call  879
+[15-Sep-2014 06:29:27] Use of undefined constant code - assumed 'code'

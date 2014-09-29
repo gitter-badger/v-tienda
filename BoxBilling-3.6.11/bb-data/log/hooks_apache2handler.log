@@ -1,0 +1,32 @@
+2014-09-15T06:18:32-04:00 INFO (6): onBeforeClientLogin: array (
+  'email' => 'frankog_33@hotmail.com',
+  'password' => '45frankop96',
+  'remember' => '1',
+  'ip' => '186.108.169.10',
+)
+2014-09-15T06:18:32-04:00 INFO (6): onEventClientLoginFailed: array (
+  'email' => 'frankog_33@hotmail.com',
+  'password' => '45frankop96',
+  'remember' => '1',
+  'ip' => '186.108.169.10',
+)
+2014-09-15T06:20:10-04:00 INFO (6): onBeforeClientSignUp: array (
+  'email' => 'frankog_33@hotmail.com',
+  'first_name' => 'Franco',
+  'password' => '45frankop96',
+  'password_confirm' => '45frankop96',
+  'ip' => '186.108.169.10',
+)
+2014-09-15T06:20:10-04:00 INFO (6): onAfterClientSignUp: array (
+  'id' => '1',
+  'password' => '45frankop96',
+)
+2014-09-15T06:20:11-04:00 INFO (6): onBeforeClientLogin: array (
+  'email' => 'frankog_33@hotmail.com',
+  'password' => '45frankop96',
+  'ip' => '186.108.169.10',
+)
+2014-09-15T06:20:11-04:00 INFO (6): onAfterClientLogin: array (
+  'id' => '1',
+  'ip' => '186.108.169.10',
+)
