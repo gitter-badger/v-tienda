@@ -13,7 +13,7 @@ foreach ($objetos as $objeto)
 	
     
 	
-   echo '<img src="'.base_url().'/images/icotienda.jpg" alt="Tienda" height="42" width="42"></img> <a href="/tienda?id='.$objeto->idUsua . '">'. $objeto->nombre . '</a> (' . $objeto->descripcion . ')<br><br>' ;
+   echo '<img src="'.base_url().'/images/icotienda.jpg" alt="Tienda" height="42" width="42"></img> <a href="'.base_url().'tienda?id='.$objeto->idUsua . '">'. $objeto->nombre . '</a> (' . $objeto->descripcion . ')<br><br>' ;
    
 } 
 
