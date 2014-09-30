@@ -15,7 +15,4 @@ $config['smtp_timeout']='30';
 $config['smtp_user']='cuentas@v-tienda.com.ar';
 $config['smtp_pass']='33frankop695';
 $config['charset']='utf-8';
-
-
-
-?>		
+?>
