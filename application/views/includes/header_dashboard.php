@@ -2,10 +2,10 @@
 
 <div class="container_12" id="dashboard">
     <div id="menu_dashboard"> 
-		<img src="/images/ico_separador.png"  height="32" width="32"><a  href="<?php echo site_url('dashboard')?>" ><img src="/images/ico_mundo.png" alt="Tiendas" height="32" width="32">  Tiendas virtuales  </a>
-		<img src="/images/ico_separador.png"  height="32" width="32"><a  href="<?php echo site_url('mi_tienda')?>"><img src="/images/ico_local.png" alt="Mi Tienda" height="32" width="32"> Mi propia tienda  </a>
-		<img src="/images/ico_separador.png"  height="32" width="32"><a  href="<?php echo site_url('faq')?>"><img src="/images/ico_pregunta.png" alt="Faq" height="32" width="32"> ¿Qué es una tienda virtual?  </a>
-		<img src="/images/ico_separador.png"  height="32" width="32">
+		<img src="<?php echo base_url() ?>/images/ico_separador.png"  height="32" width="32"><a  href="<?php echo site_url('dashboard')?>" ><img src="<?php echo base_url() ?>/images/ico_mundo.png" alt="Tiendas" height="32" width="32">  Tiendas virtuales  </a>
+		<img src="<?php echo base_url() ?>/images/ico_separador.png"  height="32" width="32"><a  href="<?php echo site_url('mi_tienda')?>"><img src="<?php echo base_url() ?>/images/ico_local.png" alt="Mi Tienda" height="32" width="32"> Mi propia tienda  </a>
+		<img src="<?php echo base_url() ?>/images/ico_separador.png"  height="32" width="32"><a  href="<?php echo site_url('faq')?>"><img src="<?php echo base_url() ?>/images/ico_pregunta.png" alt="Faq" height="32" width="32"> ¿Qué es una tienda virtual?  </a>
+		<img src="<?php echo base_url() ?>/images/ico_separador.png"  height="32" width="32">
 	</div>
 
             <div class="campos_dashboard" id="bienvenida">
