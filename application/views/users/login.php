@@ -1,6 +1,6 @@
 <div class="container_12" id="login_cont">
 <div class="prefix_1 grid_12">
-	 <br><img src="/images/presentacion_tienda.png" alt="Presentacion" > <br>
+	 <br><img src="<?php echo base_url() ?>/images/presentacion_tienda.png" alt="Presentacion" > <br>
 	</div>
 
     <div class="prefix_4 grid_7" id="login" >
