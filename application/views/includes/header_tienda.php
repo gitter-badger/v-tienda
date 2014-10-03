@@ -1,5 +1,5 @@
 <?php include_once 'header_dashboard.php'; 
-if (empty($_GET)) {
+if (empty($_GET['id'])) {
     $user_id = $this->session->userdata('user_id');
 	}else{
 	$user_id = $_GET['id'];
@@ -31,10 +31,10 @@ if (empty($_GET)) {
 				
 				<div id='menu-tienda'>
 					<ul>
-						<li class='active'><a href=<?php echo base_url().$nombre.'/info?id='.$user_id ?>><span>Información</span></a></li>
-						<li><a href=<?php echo base_url().$nombre.'/soft?id='.$user_id?>><span>Software</span></a></li>
-						<li><a href=<?php echo base_url().$nombre.'/web?id='.$user_id?>><span>Mini-Web</span></a></li>
-						<li class='last'><a href=<?php echo base_url().$nombre.'/contacto?id='.$user_id?>><span>Contacto</span></a></li>
+						<li class='active'><a href="<?php echo $nombre.'?seccion=info'; ?>"><span>Información</span></a></li>
+						<li><a href="<?php echo $nombre.'?seccion=soft'; ?>"><span>Software</span></a></li>
+						<li><a href="<?php echo $nombre.'?seccion=web'; ?>"><span>Mini-Web</span></a></li>
+						<li class='last'><a href=" <?php echo $nombre.'?seccion=contacto'; ?> "><span>Contacto</span></a></li>
 					</ul>
 				</div>
 					

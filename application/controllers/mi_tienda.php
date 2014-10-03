@@ -22,10 +22,9 @@ class Mi_Tienda extends CI_Controller {
 			$data['main_content'] = 'tienda/verify_tienda';
 			$this->load->view('/includes/template_dashboard', $data);
 		}else{
-					
-	// Datos de la tienda de un usuario
-	
-	
+				
+				
+	// Datos de la tienda de un usuario	
 	$select_tienda = $this->Tienda_Model->mostrar_mi_tienda();
 	$data['objetos'] = $select_tienda;
 	foreach ($data['objetos'] as $objeto)
@@ -64,8 +63,8 @@ class Mi_Tienda extends CI_Controller {
         $insert_tienda = $this->Tienda_Model->crear_tienda($nombre,$descripcion);
 		$nombre = $this->strip_special_characters($nombre);
 		$descripcion = $this->strip_special_characters($descripcion);
-		// Creacion de directorio y escritura de las vistas de tienda 
 		
+		// Creacion de directorio y escritura de las vistas de tienda 		
 		mkdir("application/views/tienda/$nombre"); 
 		$open = fopen("application/views/tienda/$nombre/$nombre.php", 'w');
 		fwrite($open,"
@@ -116,28 +115,11 @@ class Mi_Tienda extends CI_Controller {
 		
 		
 		
-		// Creacion de directorio y escritura de controladores
-		mkdir("application/controllers/$nombre");
-			
-		$model = '$this->load->model(\'Tienda_Model\')';
-		$form =  '$this->load->helper(\'form\')';
-		$form_validation = '$this->load->library(\'form_validation\')';
-		$user_id = '$user_id = $_GET[\'id\']';
-		$user_id_var = '$user_id';
-		$class_user_id = '$this->session->userdata(\'user_id\')';
+		// Creacion de directorio y escritura del controlador de la tienda
 		
-		
-		$data = '$data[\'objetos\'] = $select_tienda';
-		$select_tienda = '$user_id = $_GET[\'id\'];
-		$select_tienda = $this->Tienda_Model->mostrar_tienda($user_id)';
-		
-		
-		$main_content = '$data[\'main_content\']';
-		
-		$load_view = '$this->load->view(\'includes/template_tienda\', $data)';
-		
-		// Info.php
-		$open = fopen("application/controllers/$nombre/info.php", 'w');	
+	
+		// $nombretienda.php
+		$open = fopen("application/controllers/$nombre.php", 'w');	
 		fwrite($open," <?php
 		if (!defined('BASEPATH'))
 						exit('No direct script access allowed');
@@ -153,12 +135,7 @@ class Mi_Tienda extends CI_Controller {
 						}
 						
 						function index() {     
-						    $select_tienda;
-							
-							$data;
-							
-							$main_content = 'tienda/$nombre/info';
-							$load_view;
+						    
 							
 						}
 						
@@ -167,97 +144,7 @@ class Mi_Tienda extends CI_Controller {
 		
 		?>");
 		fclose($open);
-		// Soft.php
 		
-		$open = fopen("application/controllers/$nombre/soft.php", 'w');	
-		fwrite($open,"<?php
-			if (!defined('BASEPATH'))
-						exit('No direct script access allowed');
-
-						class Soft extends CI_Controller {
-						
-
-						function __construct() {
-							parent::__construct();
-							$model;
-							$form;
-							$form_validation;
-						}
-						
-						function index() {     
-							$select_tienda;
-							$data;
-							
-							$main_content = 'tienda/$nombre/soft';
-							$load_view;
-							
-						}
-						
-						
-						}
-		?>");
-		fclose($open);
-		// Web.php
-		
-		$open = fopen("application/controllers/$nombre/web.php", 'w');	
-		fwrite($open,"<?php
-				if (!defined('BASEPATH'))
-						exit('No direct script access allowed');
-
-						class Web extends CI_Controller {
-						
-
-						function __construct() {
-							parent::__construct();
-							$model;
-							$form;
-							$form_validation;
-						}
-						
-						function index() {     
-							$select_tienda;
-							$data;
-							
-							$main_content = 'tienda/$nombre/web';
-							$load_view;
-							
-						}
-						
-						
-						}
-				
-				?>");
-		fclose($open);
-		// Contacto.php
-		$open = fopen("application/controllers/$nombre/contacto.php", 'w');	
-		fwrite($open,"<?php
-
-				if (!defined('BASEPATH'))
-						exit('No direct script access allowed');
-
-						class Contacto extends CI_Controller {
-						
-
-						function __construct() {
-							parent::__construct();
-							$model;
-							$form;
-							$form_validation;
-						}
-						
-						function index() {     
-							$select_tienda;
-							$data;
-							
-							$main_content = 'tienda/$nombre/contacto';
-							$load_view;
-							
-						}
-						
-						
-						}
-						?>");
-		fclose($open);
 		
 		// Creacion de directorio y escritura del modelo
 		mkdir("application/models/$nombre");
