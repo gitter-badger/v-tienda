@@ -8,7 +8,7 @@
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
-  background: transparent url("/images/OFF.gif") repeat-x top left;
+  background: transparent url('../images/OFF.gif') repeat-x top left;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   border-bottom: 4px solid #004c99;
   border-top: 1px solid #74b0c6;
@@ -28,9 +28,9 @@
   font-weight: bold;
   padding: 12px 20px 0 20px;
   height: 24px;
-  background: transparent url("/images/DIVIDER.gif") no-repeat top right;
+  background: transparent url('../images/DIVIDER.gif') no-repeat top right;
 }
 #menu-tienda li a:hover {
-  background: transparent url("/images/HOVER.gif") no-repeat top right;
+  background: transparent url('../images/HOVER.gif') no-repeat top right;
   color: #6d7078;
 }
