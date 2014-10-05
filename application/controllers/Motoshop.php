@@ -13,7 +13,16 @@
 						}
 						
 						function index() {     
-							$select_tienda = $this->Tienda_Model->mostrar_mi_tienda();
+							if (empty($_GET['id'])) {
+								$user_id = $this->session->userdata('user_id');
+								$select_tienda = $this->Tienda_Model->mostrar_mi_tienda();
+								
+							}else{
+								$user_id = $_GET['id'];
+								$select_tienda = $this->Tienda_Model->mostrar_tienda($user_id);
+								
+							}
+						
 								$data['objetos'] = $select_tienda;
 								foreach ($data['objetos'] as $objeto)
 								{		

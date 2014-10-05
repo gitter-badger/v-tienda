@@ -49,7 +49,7 @@
 							
 							}
 							
-							$this->load->view('/includes/template_tienda', $data);
+							$this->load->view('/includes/template_mi_tienda', $data);
 							
 						}
 						

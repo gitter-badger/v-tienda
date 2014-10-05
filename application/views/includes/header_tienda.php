@@ -1,9 +1,5 @@
-<?php include_once 'header_dashboard.php'; 
-if (empty($_GET['id'])) {
-    $user_id = $this->session->userdata('user_id');
-	}else{
-	$user_id = $_GET['id'];
-	}
+<?php include_once 'header_dashboard.php';
+$user_id = $_GET['id'];
 ?>
 
 
@@ -21,7 +17,7 @@ if (empty($_GET['id'])) {
 					$nombre = strip_special_characters($objeto->nombre);
 					
 					function strip_special_characters($string){    
-						$from = 'ÀÁÂÃÄÅÆÞÇÐÈÉÊËÌÍÎÏÑÒÓÔÕÖØŔßÙÚÛÜÝªàáâãäåæþçðèéêëìíîïñºòóôõöøŕùúûüýýÿ^´`¨~ ';
+						$from = 'ÀÁÂÃÄÅÆÞÇÐÈÉÊËÌÍÎÏÑÒÓÔÕÖØRßÙÚÛÜÝªàáâãäåæþçðèéêëìíîïñºòóôõöørùúûüýýÿ^´`¨~ ';
 						$to = 'AAAAAAABCDEEEEIIIINOOOOOORSUUUUYaaaaaaaabcdeeeeiiiinoooooooruuuuyyy-----_';
 						$string = strtr(utf8_decode($string), utf8_decode($from), $to);
     
@@ -31,14 +27,12 @@ if (empty($_GET['id'])) {
 				
 				<div id='menu-tienda'>
 					<ul>
-						<li class='active'><a href="<?php echo $nombre.'?seccion=info'; ?>"><span>Información</span></a></li>
-						<li><a href="<?php echo $nombre.'?seccion=soft'; ?>"><span>Software</span></a></li>
-						<li><a href="<?php echo $nombre.'?seccion=web'; ?>"><span>Mini-Web</span></a></li>
-						<li class='last'><a href=" <?php echo $nombre.'?seccion=contacto'; ?> "><span>Contacto</span></a></li>
+						<li class='active'><a href="<?php echo $nombre.'?seccion=info&id='.$user_id ?>"><span>Información</span></a></li>
+						<li><a href="<?php echo $nombre.'?seccion=soft&id='.$user_id  ?>"><span>Software</span></a></li>
+						<li><a href="<?php echo $nombre.'?seccion=web&id='.$user_id  ?>"><span>Mini-Web</span></a></li>
+						<li class='last'><a href=" <?php echo $nombre.'?seccion=contacto&id='.$user_id  ?> "><span>Contacto</span></a></li>
 					</ul>
 				</div>
 					
 			</div>
 			</div>
-
-

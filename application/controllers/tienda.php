@@ -30,6 +30,7 @@ class Tienda extends CI_Controller {
 		$nombre = $objeto->nombre;
 	}
 	$nombre = $this->strip_special_characters($objeto->nombre);
+	$data['user_id'] = $user_id;
 	$data['main_content'] = 'tienda/'.$nombre.'/'.$nombre;
 	$this->load->view('/includes/template_tienda', $data);
 			

@@ -33,7 +33,7 @@ class Mi_Tienda extends CI_Controller {
 	}
 	$nombre = $this->strip_special_characters($nombre);
 	$data['main_content'] = 'tienda/'.$nombre.'/'.$nombre;
-	$this->load->view('/includes/template_tienda', $data);
+	$this->load->view('/includes/template_mi_tienda', $data);
 					
 	}
 
