@@ -71,7 +71,7 @@ class Mi_Tienda extends CI_Controller {
 			<div class='container_12'>
 			<div class='grid_10'>
 				
-				<img src='/images/construccion.png' >
+				<img src='<?php echo base_url(); ?>/images/construccion.png' >
 				
 					
 			</div>
