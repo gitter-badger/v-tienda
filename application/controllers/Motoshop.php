@@ -57,9 +57,11 @@
 							break;
 							
 							}
-							
+							if (empty($_GET['id'])) {
+							$this->load->view('/includes/template_mi_tienda', $data);
+							}else{
 							$this->load->view('/includes/template_tienda', $data);
-							
+							}
 						}
 						
 							function strip_special_characters($string){    
